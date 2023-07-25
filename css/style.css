@@ -1,0 +1,107 @@
+body {
+    background-color: #edede9;
+  }
+  
+  h1 {
+    color: #52796f;
+  }
+  .input-field input {
+    background-color: #f5ebe0;
+  }
+  
+  .khataBook-container{
+    width: 100vw;
+  }
+  
+  .input-field button {
+    background-color: #84a98c;
+  }
+  
+  .input-field input:focus {
+    outline: none;
+  }
+  
+  .customer-details-container {
+    width: 100%;
+    background-color: #84a98c;
+  }
+  
+  .hidden-block {
+    display: none !important;
+  }
+  
+  .customer-name {
+    max-width: 8rem;
+    overflow: auto;
+  }
+  
+  section {
+    background-color: #cad2c5;
+  }
+  
+  .edit-button {
+    cursor: pointer;
+  }
+  
+  .edit-amount {
+    width: 4rem;
+    background-color: #f5ebe0;
+  }
+  
+  .hidden-item {
+    display: none;
+  }
+  
+  .all-details-button {
+    background-color: #dad7cd;
+    cursor: pointer;
+  }
+  
+  .details-container  {
+    width: 100vw;
+  }
+  
+  .customer-name {
+    max-width: 8rem;
+    overflow: auto;
+  }
+  
+  .edit-paid, #edit-get {
+    cursor: pointer;
+  }
+  
+  .edit-amount {
+    width: 4rem;
+    background-color: #f5ebe0;
+  }
+  
+  .hidden-section {
+    display: none !important;
+  }
+
+  
+  
+  @media (min-width: 768px) {
+    .khataBook-container, .details-container{
+      width: 60%;
+    }
+  
+    .all-details-conatiner{
+      width: 39vw;
+    }
+  
+    .customer-details-container{
+      width: 33vw;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  
+    .all-details-conatiner{
+      width: 33vw;
+    }
+  
+    .khataBook-container, .details-container{
+      width: 40%;
+    }
+  }
